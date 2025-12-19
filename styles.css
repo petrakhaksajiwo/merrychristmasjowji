@@ -1,0 +1,156 @@
+body{
+    background-color: #fff8f8;
+}
+
+.vidd {
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.vidd video {
+    display: block;
+}
+
+h1 {
+    font-family: 'bogatto', cursive;
+    color: rgb(93, 85, 194);
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'bogatto', cursive;
+    color: #bd524e;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-style: bold italic;
+    font-size: 12px;
+    font-family: 'inter', sans-serif;
+    color: #bd524e;
+    text-align: justify;
+    position: relative;
+    padding-bottom: 20px;
+    top: 20px;
+    bottom: 20px;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+section {
+    background-color: #ffbcbc;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    position: center;
+}
+
+.jiji {
+    background-color: #bcbfff;
+    border-radius: 10px;
+    width: 2000px;
+    height: 500px;
+    margin: 20px;
+    position: right;
+    padding: 20px;
+}
+
+.biru {
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(93, 85, 194);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.jiji img {
+    position: absolute center;
+    border: 2px solid #5d55c2;
+    padding: 0;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    border: 2px solid #bd524e;
+    border-radius: 10px;
+    margin: 0 10px auto;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.item article {
+    background-color: #ffbcbc;
+    border-radius: 10px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.item {
+    height: 500px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+video  {
+    display: block;
+    margin: 50px 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.in-section {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 300px;
+    text-align: justify;
+}
+
+.image-swap {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.image-swap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.foto {
+    opacity: 0;
+}
+
+.image-swap:hover .foto {
+    opacity: 1;
+}
+
+.image-swap:hover .gambar {
+    opacity: 0;
+}
+
+.message {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(93, 85, 194);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
